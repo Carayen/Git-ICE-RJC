@@ -20,6 +20,10 @@ class BeeVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func clickMe(sender:UIButton) -> Void
+    {
+        print("I clicked")
+    }
 
 }
 
