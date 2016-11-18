@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522AB0D71DDF8A42008EE90E /* DeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AB0D61DDF8A42008EE90E /* DeeVC.swift */; };
 		5AA13F4F1DDA47130088362E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA13F4E1DDA47130088362E /* AppDelegate.swift */; };
 		5AA13F511DDA47130088362E /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA13F501DDA47130088362E /* EhVC.swift */; };
 		5AA13F531DDA47130088362E /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA13F521DDA47130088362E /* BeeVC.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522AB0D61DDF8A42008EE90E /* DeeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeeVC.swift; sourceTree = "<group>"; };
 		5AA13F4B1DDA47130088362E /* Git-ICE-RJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-ICE-RJC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA13F4E1DDA47130088362E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AA13F501DDA47130088362E /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				5AA13F501DDA47130088362E /* EhVC.swift */,
 				5AA13F521DDA47130088362E /* BeeVC.swift */,
 				5AA13F641DDA48B50088362E /* SeaVC.swift */,
+				522AB0D61DDF8A42008EE90E /* DeeVC.swift */,
 				5AA13F541DDA47130088362E /* Main.storyboard */,
 				5AA13F571DDA47130088362E /* Assets.xcassets */,
 				5AA13F591DDA47130088362E /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				5AA13F651DDA48B50088362E /* SeaVC.swift in Sources */,
 				5AA13F531DDA47130088362E /* BeeVC.swift in Sources */,
+				522AB0D71DDF8A42008EE90E /* DeeVC.swift in Sources */,
 				5AA13F4F1DDA47130088362E /* AppDelegate.swift in Sources */,
 				5AA13F511DDA47130088362E /* EhVC.swift in Sources */,
 			);
@@ -294,6 +298,7 @@
 				5AA13F611DDA47130088362E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

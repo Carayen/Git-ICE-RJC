@@ -1,31 +1,32 @@
 //
-//  SeaVC.swift
+//  DeeVC.swift
 //  Git-ICE-RJC
 //
-//  Created by Carley,Ryan J on 11/14/16.
+//  Created by Kandriga,Naga Krishna Lalith on 11/18/16.
 //  Copyright © 2016 Carley,Ryan J. All rights reserved.
 //
 
 import UIKit
 
-class SeaVC: UIViewController {
+class DeeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    @IBOutlet var TextInputTF: UITextField!
 
+    @IBAction func clickBTN(sender: AnyObject) {
+        print ("This is yondaime !!!!")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    //Added by Sai
-    @IBAction func doNotClick(sender: AnyObject) {
-    print("Why did you click? :/")
-    }
-    
+
     /*
     // MARK: - Navigation
 
