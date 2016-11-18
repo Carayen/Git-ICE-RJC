@@ -24,6 +24,10 @@ class BeeVC: UIViewController {
         print("I have been clicked")
     }
 
+    @IBAction func clickMe(sender:UIButton) -> Void
+    {
+        print("I clicked")
+    }
 
 }
 
