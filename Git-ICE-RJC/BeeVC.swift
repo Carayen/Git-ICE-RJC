@@ -21,7 +21,7 @@ class BeeVC: UIViewController {
     }
     
     @IBAction func clickMe(sender:UIButton)->Void {
-        print("I have been clicked")
+        print("I have been clicked, really -- 0th row")
     }
 
 }
