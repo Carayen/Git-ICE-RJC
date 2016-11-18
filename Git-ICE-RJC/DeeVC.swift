@@ -18,6 +18,7 @@ class DeeVC: UIViewController {
     @IBOutlet var TextInputTF: UITextField!
 
     @IBAction func clickBTN(sender: AnyObject) {
+        print ("This is yondaime !!!!")
     }
     
     override func didReceiveMemoryWarning() {
