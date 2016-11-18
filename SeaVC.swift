@@ -21,9 +21,9 @@ class SeaVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    // Added by Sai
-    func addPointlessFunction(){
-        
+    //Added by Sai
+    @IBAction func doNotClick(sender: AnyObject) {
+    print("Why did you click? :/")
     }
     
     /*
